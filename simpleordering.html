@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Javascript sorting</title>
+        <link rel="stylesheet" href="iw_examples.css"/>
+        <meta charset="utf-8"/>
+<!--
+
+WEB EGINEERING COURSE - University of L'Aquila 
+
+This example shows a simple technique for client-side table sorting.
+
+See the course homepage: http://www.di.univaq.it/gdellape/students.php
+
+-->
+
+    <style type="text/css">table.ordered th.number, table.ordered
+    th.string { background-color: blue; color: white; cursor:
+    pointer; font-weight: bold; } .sortindicator { font-size:50%; }
+    table.ordered th.ASC, table.ordered th.DESC { background-color:
+    red; } table.ordered td.ordering { background-color: #EEE;
+    }</style>
+    <script type="text/javascript" src="simpleordering.js">
+    </script>
+  </head>
+  <body>
+    <h1 class="sezione">A simple Javascript table sorter</h1>
+    <table width="50%" border="1" class="ordered"
+    summary="risultati esame">
+      <tr>
+        <th class="string">Name</th>
+        <th class="number">Number</th>
+        <th class="number">Grade</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>Pincopallino</td>
+        <td>123456</td>
+        <td>30</td>
+        <td>Good!</td>
+      </tr>
+      <tr>
+        <td>Tizio</td>
+        <td>563775</td>
+        <td>27</td>
+        <td>&#160;</td>
+      </tr>
+      <tr>
+        <td>Caio</td>
+        <td>111111</td>
+        <td>18</td>
+        <td>To reconsider</td>
+      </tr>
+    </table>
+  </body>
+</html>

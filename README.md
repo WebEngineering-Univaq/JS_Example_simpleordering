@@ -11,8 +11,7 @@ This is a *sample application* developed during the lectures of the  [**Web Engi
 
 ## Installation
 
-This is a Maven-based project. Simply download the code and open it in any Maven-enabled IDE such as Netbeans or Eclipse. Additionally, you may need to *configure the deploy settings*: the application is intended to be run on the **JavaEE 7** platform inside **Apache Tomcat version 9**. Refer to your IDE help files to perform this step. For example, in Apache Netbeans, you must enter these settings in Project properties > Run.
-
+Simply download the code and open the provided html file in your browser.
  
 ---
 
